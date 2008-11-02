@@ -24,4 +24,4 @@ This package provides a demo project, to show the usage of django-admin-wmdedito
 1. Go to ``django-admin-wmdeditor/demo_project/``
 2. ``$ ./manage.py syncdb`` and create a superuser
 3. ``$ ./manage.py runserver`` and point your browser to ``http://127.0.0.1:8000/admin/``
-4. Test the markdown wysiwym editor using the``MyModel`` stuff.
+4. Test the markdown wysiwym editor using the ``MyModel`` stuff.
