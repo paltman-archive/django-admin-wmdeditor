@@ -25,3 +25,9 @@ This package provides a demo project, to show the usage of django-admin-wmdedito
 2. ``$ ./manage.py syncdb`` and create a superuser
 3. ``$ ./manage.py runserver`` and point your browser to ``http://127.0.0.1:8000/admin/``
 4. Test the markdown wysiwym editor using the ``MyModel`` stuff.
+
+License
+=======
+
+The application is licensed under the New BSD License. See the LICENSE File for details.
+The WMD Editor (Copyright by Attacklab 2007-2008) is available at http://www.wmd-editor.com/
