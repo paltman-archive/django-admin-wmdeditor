@@ -7,7 +7,7 @@ from django.conf import settings
 class WmdEditorWidget(forms.Textarea):
     def render(self, name, value, attrs=None):
         output = [super(WmdEditorWidget, self).render(name, value, attrs)]
-        output.append(u'<label>&nbsp;</label><div id="id_%s_preview" class="%s"></div>' % (name.lower(), getattr(settings, 'WMDEDITOR_PREVIEW_CLASS', 'wmd-preview')))
+        output.append(u'<br /><label>&nbsp;</label><div id="id_%s_preview" class="%s"></div>' % (name.lower(), getattr(settings, 'WMDEDITOR_PREVIEW_CLASS', 'wmd-preview')))
         output.append(u'<script type="text/javascript">create_wmdeditor("%s");</script>' % name.lower())
         return mark_safe(u''.join(output))
 
